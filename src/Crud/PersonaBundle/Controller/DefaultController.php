@@ -4,6 +4,9 @@ namespace Crud\PersonaBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
+/**
+ * Controlador por defecto
+ */
 class DefaultController extends Controller
 {
     public function indexAction($name)
